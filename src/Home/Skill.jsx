@@ -16,10 +16,16 @@ const skills = [
 const Skill = () => {
   return (
     <section
-      id="skills"
+      id="skill"
       className="relative flex items-center justify-center my-32 bg-black/60 border-2 border-blue-300  rounded-xl shadow-xl p-10"
     >
-
+      {/* Blurred background shapes */}
+      <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+        {/* Large blue blur top left */}
+        <div className="absolute -bottom-20 -right-24 w-96 h-96 rounded-full bg-blue-300 opacity-30 blur-3xl"></div>
+        {/* Soft green blur bottom right */}
+        <div className="absolute top-0 left-0 w-72 h-72 rounded-full bg-green-200 opacity-20 blur-2xl"></div>
+      </div>
       {/* Main content card */}
       <div className="w-full p-10 ">
         <h3 className="text-4xl text-center font-bold text-blue-200 mb-8">

@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
-import Skill from "./Skill/Skill";
+import Skill from "./Skill";
 
 const Home = () => {
   return (

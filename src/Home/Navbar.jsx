@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href='#about' className="hover:text-blue-300 transition-colors duration-200">About</a>
           </li>
           <li>
-            <a href='' className="hover:text-blue-300 transition-colors duration-200">Skill</a>
+            <a href='#skill' className="hover:text-blue-300 transition-colors duration-200">Skill</a>
           </li>
           <li>
             <a href='' className="hover:text-blue-300 transition-colors duration-200">Project</a>
