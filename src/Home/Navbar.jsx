@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Contact Button */}
       <div className="z-10">
         <a
-          href="#"
+          href=""
           className="px-5 py-2 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-md hover:bg-blue-200 transition-colors duration-200 border border-blue-200"
         >
           Contact
