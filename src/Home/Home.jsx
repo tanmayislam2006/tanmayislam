@@ -2,6 +2,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
+import About from './About';
+
 
 const Home = () => {
   return (
@@ -9,7 +11,7 @@ const Home = () => {
 <div className="">
     <Navbar/>
     <Hero/>
-    
+    <About/>
 </div>
   );
 };

@@ -9,18 +9,18 @@ const Navbar = () => {
       </div>
       {/* Brand */}
       <div className="z-10">
-        <h1 className="text-3xl font-extrabold text-blue-300 tracking-tight drop-shadow-lg">
+        <h3 className="text-3xl font-extrabold text-blue-300 tracking-tight drop-shadow-lg">
           Tanmay Islam
-        </h1>
+        </h3>
       </div>
       {/* Nav Links */}
       <div className="z-10">
         <ul className="flex gap-6 text-blue-200 text-lg font-semibold">
           <li>
-            <a href='' className="hover:text-blue-300 transition-colors duration-200">Home</a>
+            <a href='/' className="hover:text-blue-300 transition-colors duration-200">Home</a>
           </li>
           <li>
-            <a href='' className="hover:text-blue-300 transition-colors duration-200">About</a>
+            <a href='#about' className="hover:text-blue-300 transition-colors duration-200">About</a>
           </li>
           <li>
             <a href='' className="hover:text-blue-300 transition-colors duration-200">Skill</a>
