@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="relative flex items-center justify-center min-h-screen px-4 py-20">
+    <section id="about" className="relative flex items-center justify-center p-8 bg-black/60  border-2 border-blue-300 rounded-xl shadow-xl my-32">
       {/* Blurred background shapes */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         {/* Large blue blur top left */}
@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       {/* Main content card */}
-      <div className="relative z-10 w-full  bg-black/40 border-2 border-blue-300 rounded-xl shadow-xl p-10 backdrop-blur-md">
+      <div className="relative z-10 w-full p-10 ">
         <h3 className="text-4xl text-center font-bold text-blue-200 mb-8">
           About Me
         </h3>

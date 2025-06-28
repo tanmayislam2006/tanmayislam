@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black/70 shadow-xl px-8 py-5 flex justify-between items-center sticky top-0 z-20 backdrop-blur-md border-b border-blue-300/30 overflow-hidden">
+    <nav className="bg-black/70 shadow-xl px-2 py-5 flex justify-between items-center sticky top-0 z-20 backdrop-blur-md border-b border-blue-300/30 overflow-hidden">
       {/* Noise overlay */}
       <div className="pointer-events-none absolute inset-0 z-0 opacity-20">
         <div className="w-full h-full noise-bg"></div>

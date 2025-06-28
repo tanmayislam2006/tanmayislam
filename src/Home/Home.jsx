@@ -1,18 +1,19 @@
 // src/Home/Home.js
-import React from 'react';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import About from './About';
-
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
+import Skill from "./Skill/Skill";
 
 const Home = () => {
   return (
     // This content will be rendered inside the <main> tag of your MainLayout
-<div className="">
-    <Navbar/>
-    <Hero/>
-    <About/>
-</div>
+    <div className="">
+      <Navbar />
+      <Hero />
+      <About />
+      <Skill />
+    </div>
   );
 };
 
