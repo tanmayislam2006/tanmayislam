@@ -6,6 +6,7 @@ import About from "./About";
 import Skill from "./Skill";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Project from "./Project";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Project/>
       <Skill />
       <Contact/>
       <Footer/>
