@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-
+import { FaXTwitter } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section className="relative flex items-center justify-center text-center px-4 py-20 bg-black/50 border-white overflow-hidden">
@@ -60,7 +60,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
             >
-              <FaTwitter className="text-xl" />
+              <FaXTwitter />
               Twitter
             </a>
           </div>
