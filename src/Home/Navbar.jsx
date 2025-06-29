@@ -8,13 +8,13 @@ const Navbar = () => {
         <div className="w-full h-full noise-bg"></div>
       </div>
       {/* Brand */}
-      <div className="z-10 flex items-center">
+      <a href="/" className="z-10 flex items-center">
         <div className="w-16 h-16">
           <img src={Logo} alt="" className="" />
         </div>
-      </div>
+      </a>
       {/* Nav Links */}
-      <div className="z-10">
+      <div className="z-10 hidden md:flex">
         <ul className="flex gap-6 text-blue-200 text-lg font-semibold">
           <li>
             <a

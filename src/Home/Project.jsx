@@ -3,12 +3,11 @@ import React from "react";
 const projects = [
   {
     title: "Green Connect",
-    image:
-      "https://images.unsplash.com/photo-1603827491665-5e0b7b87d930?auto=format&fit=crop&w=400&q=80",
+    image: "https://i.ibb.co/qLh79CX1/green-connect.png",
     features: [
       "Community Gardening Tips: Browse and share expert advice on sustainable gardening, filtered by category and difficulty.",
       "Gardener Profiles: Explore other users’ profiles to see their contributions, favorite tips, and connect with local gardeners.",
-      "Theme Toggle & Responsive UI: Seamless light/dark mode with a mobile-friendly design and smooth animations for an engaging experience."
+      "Theme Toggle & Responsive UI: Seamless light/dark mode with a mobile-friendly design and smooth animations for an engaging experience.",
     ],
     techStack: [
       "React",
@@ -18,21 +17,21 @@ const projects = [
       "MongoDB",
       "React Router",
       "AOS",
-      "React Toastify"
+      "React Toastify",
     ],
     live: "https://green-connect-app.web.app/",
     source: "https://github.com/tanmayislam2006/green-connect-server.git",
     details:
-      "Green Connect is a modern community platform for sustainable gardening. Users can share their tips, discover new techniques, and build local networks of fellow gardeners. With Firebase authentication, a responsive design, and rich interactive features, it aims to inspire eco-friendly living and knowledge-sharing among users of all experience levels."
+      "Green Connect is a modern community platform for sustainable gardening. Users can share their tips, discover new techniques, and build local networks of fellow gardeners. With Firebase authentication, a responsive design, and rich interactive features, it aims to inspire eco-friendly living and knowledge-sharing among users of all experience levels.",
   },
   {
     title: "FOODCart",
     image:
-      "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80",
+      "https://i.ibb.co/JRSXxZnx/foodcart.png",
     features: [
       "Dynamic Menu with Categories: Browse food items by type (Breakfast, Lunch, Dinner) with intuitive filtering and pagination.",
       "Role-Based Access: Customers and admins have dedicated views with JWT-secured authentication and protected routes.",
-      "Order Management Dashboard: Admin panel for managing menu items, tracking orders, and controlling user roles."
+      "Order Management Dashboard: Admin panel for managing menu items, tracking orders, and controlling user roles.",
     ],
     techStack: [
       "React",
@@ -41,21 +40,21 @@ const projects = [
       "MongoDB",
       "JWT",
       "React Router",
-      "Tailwind CSS"
+      "Tailwind CSS",
     ],
     live: "#",
     source: "#",
     details:
-      "FOODCart is a full-stack restaurant management and ordering platform that offers customers an easy way to browse, select, and order meals while providing admins with a powerful dashboard to manage menu items and track orders. It features role-based access, secure authentication with JWT, and a clean, responsive design."
+      "FOODCart is a full-stack restaurant management and ordering platform that offers customers an easy way to browse, select, and order meals while providing admins with a powerful dashboard to manage menu items and track orders. It features role-based access, secure authentication with JWT, and a clean, responsive design.",
   },
   {
     title: "Skillora",
     image:
-      "https://images.unsplash.com/photo-1556742400-b5d62b1a3f35?auto=format&fit=crop&w=400&q=80",
+      "https://i.ibb.co/XP8jC9j/skillora.png",
     features: [
       "Service Discovery & Booking: Browse and filter local services by category and area, with easy calendar-based booking.",
       "Provider Profiles & Listings: Users can offer their own services with detailed profiles, descriptions, and availability management.",
-      "Secure Auth & Theming: Firebase authentication, responsive UI with light/dark mode, and smooth AOS-powered transitions."
+      "Secure Auth & Theming: Firebase authentication, responsive UI with light/dark mode, and smooth AOS-powered transitions.",
     ],
     techStack: [
       "React",
@@ -65,13 +64,13 @@ const projects = [
       "MongoDB",
       "React Router",
       "AOS",
-      "React Toastify"
+      "React Toastify",
     ],
     live: "https://skillora-11.web.app/",
     source: "#",
     details:
-      "Skillora is a modern platform for discovering, sharing, and managing skills and services. Users can offer their own services, book others’ services with built-in scheduling, and connect through detailed provider profiles. It includes secure authentication, theme toggling, and a responsive design that ensures a smooth experience across devices."
-  }
+      "Skillora is a modern platform for discovering, sharing, and managing skills and services. Users can offer their own services, book others’ services with built-in scheduling, and connect through detailed provider profiles. It includes secure authentication, theme toggling, and a responsive design that ensures a smooth experience across devices.",
+  },
 ];
 
 const Project = () => {
