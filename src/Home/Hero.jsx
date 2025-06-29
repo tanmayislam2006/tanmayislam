@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -15,11 +16,11 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-6xl w-full flex flex-col md:flex-row items-center justify-center gap-12">
         {/* Image */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 relative">
           <img
-            src="https://i.ibb.co/SD1cxtWF/431866632-950268886315781-7178799859184248457-n.jpg" // Replace this with your actual photo!
+            src="https://i.ibb.co/60BL9L3C/photo.png"
             alt="Tanmay Islam"
-            className="w-48 h-48 md:w-96 md:h-96 rounded-full object-cover border-4 border-blue-300 shadow-lg"
+            className="rounded-full w-48 h-48 md:w-96 md:h-96 object-cover border-4 border-blue-300 shadow-lg"
           />
         </div>
 
@@ -29,13 +30,49 @@ const Hero = () => {
             Hi, I'm <span className="text-blue-200">Tanmay Islam</span>
           </h1>
           <p className="text-lg md:text-2xl text-blue-100 mb-8 max-w-2xl">
-            I build beautiful, modern web experiences with React, Tailwind CSS, and a passion for clean code.
+            I build beautiful, modern web experiences with React, Tailwind CSS,
+            and a passion for clean code.
           </p>
+
+          {/* Social Buttons */}
+          <div className="flex gap-6 mb-8">
+            <a
+              href="https://github.com/tanmayislam2006"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+            >
+              <FaGithub className="text-xl" />
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/tanmayislam101"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+            >
+              <FaLinkedin className="text-xl" />
+              LinkdIn
+            </a>
+            <a
+              href="https://x.com/TanmayIsla13054"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+            >
+              <FaTwitter className="text-xl" />
+              Twitter
+            </a>
+          </div>
+
+          {/* Resume Link */}
           <a
-            href="#contact"
-            className="inline-block px-8 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-md hover:bg-blue-200 transition-colors duration-200 border border-blue-200"
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-colors duration-200 border border-blue-200"
           >
-            Get in Touch
+            Download Resume
           </a>
         </div>
       </div>
