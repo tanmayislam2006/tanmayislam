@@ -88,7 +88,7 @@ const Skill = () => {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className={`relative flex flex-col items-center justify-center rounded-xl shadow ${skill.color} ${skill.text} py-6 px-2 transition-all overflow-hidden`}
+              className={`relative flex flex-col items-center justify-center rounded-xl shadow ${skill.color} ${skill.text} py-6 px-2 transition-all overflow-hidden cursor-pointer group hover:scale-105 hover:shadow-2xl hover:z-20`}
             >
               <BorderBeam
                 borderWidth={4}
@@ -100,9 +100,9 @@ const Skill = () => {
               <img
                 src={skill.icon}
                 alt={skill.name}
-                className="w-12 h-12 mb-2 z-10"
+                className="w-12 h-12 mb-2 z-10 group-hover:scale-110 transition-transform duration-300"
               />
-              <span className="font-bold text-lg z-10">{skill.name}</span>
+              <span className="font-bold text-lg z-10 group-hover:tracking-wide transition-all duration-300">{skill.name}</span>
             </div>
           ))}
         </div>

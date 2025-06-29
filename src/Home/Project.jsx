@@ -26,8 +26,7 @@ const projects = [
   },
   {
     title: "FOODCart",
-    image:
-      "https://i.ibb.co/JRSXxZnx/foodcart.png",
+    image: "https://i.ibb.co/JRSXxZnx/foodcart.png",
     features: [
       "Dynamic Menu with Categories: Browse food items by type (Breakfast, Lunch, Dinner) with intuitive filtering and pagination.",
       "Role-Based Access: Customers and admins have dedicated views with JWT-secured authentication and protected routes.",
@@ -49,8 +48,7 @@ const projects = [
   },
   {
     title: "Skillora",
-    image:
-      "https://i.ibb.co/XP8jC9j/skillora.png",
+    image: "https://i.ibb.co/XP8jC9j/skillora.png",
     features: [
       "Service Discovery & Booking: Browse and filter local services by category and area, with easy calendar-based booking.",
       "Provider Profiles & Listings: Users can offer their own services with detailed profiles, descriptions, and availability management.",
@@ -91,15 +89,15 @@ const Project = () => {
             } bg-black/60 border-2 border-blue-300 rounded-xl shadow-xl overflow-hidden`}
           >
             {/* Image */}
-            <div className="md:w-1/3 w-full flex-shrink-0">
+            <div className="flex-1/2 w-full flex-shrink-0">
               <img
                 src={project.image}
                 alt={project.title}
-                className="object-cover w-full h-56 md:h-full"
+                className="object-contain w-full h-56 md:h-full"
               />
             </div>
             {/* Content */}
-            <div className="flex flex-col justify-between p-6 md:w-2/3 w-full">
+            <div className="flex-1/2 flex flex-col justify-between p-6 w-full">
               <div>
                 <h4 className="text-2xl font-bold text-blue-200 mb-3">
                   {project.title}
