@@ -1,9 +1,10 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+
 const Hero = () => {
   return (
-    <section className="relative flex items-center justify-center text-center px-4 py-20 bg-black/50 border-white overflow-hidden">
+    <section className="relative flex items-center justify-center text-center px-4 py-20 bg-black/50 overflow-hidden">
       {/* Blurred background shapes */}
       <div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
@@ -15,10 +16,12 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl w-full flex flex-col md:flex-row items-center justify-center gap-12">
-        {/* Image */}
+        {/* Image with glow */}
         <div className="flex-shrink-0 relative">
+          {/* Glow behind image */}
+          <div className="absolute inset-0 rounded-full bg-blue-300 blur-3xl -z-10"></div>
           <img
-            src="https://i.ibb.co/60BL9L3C/photo.png"
+            src="https://i.ibb.co/VYyTbZCb/photo-removebg-preview.png"
             alt="Tanmay Islam"
             className="rounded-full w-48 h-48 md:w-96 md:h-96 object-cover border-4 border-blue-300 shadow-lg"
           />
@@ -35,12 +38,12 @@ const Hero = () => {
           </p>
 
           {/* Social Buttons */}
-          <div className="flex gap-6 mb-8">
+          <div className="flex flex-wrap gap-4 mb-8">
             <a
               href="https://github.com/tanmayislam2006"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+              className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-slate-900 font-medium shadow-lg transition-all duration-200"
             >
               <FaGithub className="text-xl" />
               GitHub
@@ -49,18 +52,18 @@ const Hero = () => {
               href="https://www.linkedin.com/in/tanmayislam101"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+              className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-slate-900 font-medium shadow-lg transition-all duration-200"
             >
               <FaLinkedin className="text-xl" />
-              LinkdIn
+              LinkedIn
             </a>
             <a
               href="https://x.com/TanmayIsla13054"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-all duration-200 border border-blue-200"
+              className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-slate-900 font-medium shadow-lg transition-all duration-200"
             >
-              <FaXTwitter />
+              <FaXTwitter className="text-xl" />
               Twitter
             </a>
           </div>
@@ -70,7 +73,7 @@ const Hero = () => {
             href="https://google.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 rounded-lg bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-colors duration-200 border border-blue-200"
+            className="inline-block px-8 py-3 rounded-lg border border-blue-300 bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-colors duration-200"
           >
             Download Resume
           </a>
