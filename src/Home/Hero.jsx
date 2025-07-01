@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Glow behind image */}
           <div className="absolute inset-0 rounded-full bg-blue-300 blur-3xl -z-10"></div>
           <img
-            src="https://i.ibb.co/VYyTbZCb/photo-removebg-preview.png"
+            src="https://i.ibb.co/k2h6BGzf/tanmay.png"
             alt="Tanmay Islam"
             className="rounded-full w-48 h-48 md:w-96 md:h-96 object-cover border-4 border-blue-300 shadow-lg"
           />

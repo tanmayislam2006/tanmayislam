@@ -10,7 +10,7 @@
     ],
     "techStack": ["React", "Vite", "Tailwind CSS", "Firebase", "MongoDB"],
     "live": "https://skillora-11.web.app/",
-    "source": "#",
+    "source": "https://github.com/tanmayislam2006/skillora.git",
     "description": "Skillora is a modern platform for discovering, sharing, and managing skills and services. Users can offer their own services, book others’ services with built-in scheduling, and connect through detailed provider profiles. It includes secure authentication, theme toggling, and a responsive design that ensures a smooth experience across devices."
   },
   {
@@ -24,7 +24,7 @@
     ],
     "techStack": ["React", "Vite", "Tailwind CSS", "Firebase", "MongoDB"],
     "live": "https://green-connect-app.web.app/",
-    "source": "https://github.com/tanmayislam2006/green-connect-server.git",
+    "source": "https://github.com/tanmayislam2006/Green-Connect.git",
     "description": "Green Connect is a modern community platform for sustainable gardening. Users can share their tips, discover new techniques, and build local networks of fellow gardeners. With Firebase authentication, a responsive design, and rich interactive features, it aims to inspire eco-friendly living and knowledge-sharing among users of all experience levels."
   },
   {
@@ -46,7 +46,7 @@
       "Tailwind CSS"
     ],
     "live": "#",
-    "source": "#",
+    "source": "https://github.com/tanmayislam2006/foodcart-client.git",
     "description": "FOODCart is a full-stack restaurant management and ordering platform that offers customers an easy way to browse, select, and order meals while providing admins with a powerful dashboard to manage menu items and track orders. It features role-based access, secure authentication with JWT, and a clean, responsive design."
   }
 ]
