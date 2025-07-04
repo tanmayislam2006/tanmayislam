@@ -70,7 +70,7 @@ const Hero = () => {
 
           {/* Resume Link */}
           <a
-            href="https://google.com"
+            href="https://drive.google.com/file/d/1Cnzv_cely9hwU9ykbUDdIfAMcSwly8iq/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-lg border border-blue-300 bg-blue-300 text-slate-900 font-bold shadow-lg hover:bg-blue-200 transition-colors duration-200"
